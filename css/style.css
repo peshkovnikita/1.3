@@ -129,6 +129,10 @@ source {
     margin-right: 16px;
 }
 
+.menu-right .menu__item:nth-child(3) {
+    margin-right: 0;
+}
+
 .menu__item {
     height: 40px;
     width: 40px;
