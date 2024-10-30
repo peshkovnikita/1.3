@@ -205,12 +205,11 @@ source {
 .heading::before {
     content: "";
     position: absolute;
-    width: 8px;
+    width: 4px;
     height: 38px;
     left: -16px;
-    transform: translate(-50%);
     background-color: #41F6D7;
-    border-radius: 4px;
+    border-radius: 0 4px 4px 0;
 }
 
 .text-info__slider,
@@ -438,6 +437,11 @@ button, input[type="submit"], input[type="reset"] {
 
 /* от 1120px */
 @media (min-width: 1120px) {
+    .wrapper {
+        max-width: 1120px;
+        margin: 0 auto;
+    }
+
     .header,
     .blurred {
         display: none;
